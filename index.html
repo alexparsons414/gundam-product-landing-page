@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Product Landing Page</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <header id='header'>
+      <img src='https://static.wikia.nocookie.net/gundam/images/e/e3/AE_0083.png' alt='anaheim logo' id='header-img'>
+      <h1>Mobile Suit Page</h1>
+      <nav id='nav-bar'>
+        <ul>
+          <li><a class='nav-link' href='#features'>Features</a></li>
+          <li><a class='nav-link' href='#how_it_works'>How it works</a></li>
+          <li><a class='nav-link' href='#pricing'>Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 id='subtitle'>Innovation and Revolutionary Machinery</h2>
+      <form id='form' method='post' action='https://www.freecodecamp.com/email-submit'>
+        <input name='email' type='email' id='email' placeholder='johndoe24@gmail.com'>
+        <input type='submit' id='submit' value='Ready for Launch!'>
+      </form>
+      <section id='features'>
+        <div class='feature'>
+          <h2>Premium Materials</h2>
+          <p>Our mobile suits are made with the toughest material in our system.</p>
+        </div>
+        <div class='feature'>
+          <h2>Fast Shipping</h2>
+          <p>We make sure you receive your mobile suits to order as soon as they are ready.</p>
+        </div>
+        <div class='feature'>
+          <h2>Quality Assurance</h2>
+          <p>Our mobile suits are tested to their limits to guarantee that they will withstand whatever you decide to use them for.</p>
+        </div>
+      </section>
+      <section id='how_it_works'>
+        <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/PHPrEdA8Z7k?si=tbjh51CGLZtod6i_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+      <section id='pricing'>
+        <div class='products'>
+          <div class='product' id='gm'>
+            <div class='level'><h4>GM</h4></div>
+            <h5>$59,000,000</h5>
+            <ul>
+              <li>General Purpose</li>
+              <li>Lower Cost</li>
+              <li>Mass Production Model</li>
+            </ul>
+            <button class='button'>Select</button>
+          </div>
+          <div class='product' id='gundam'>
+            <div class='level'><h4>Gundam</h4></div>
+            <h5>$730,000,000</h5>
+            <ul>
+              <li>Gundanium Alloy</li>
+              <li>Potential to become a Newtype</li>
+              <li>Big Players</li>
+            </ul>
+            <button class='button'>Select</button>
+          </div>
+          <div class='product' id='big_zam'>
+            <div class='level'><h4>Big Zam</h4></div>
+            <h5>$1,400,000,000</h5>
+            <ul>
+              <li>It's</li>
+              <li>Big</li>
+              <li>Zam</li>
+            </ul>
+            <button class='button'>Select</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
